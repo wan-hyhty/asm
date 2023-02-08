@@ -16,7 +16,13 @@ mov AX,BX ;đặt giá trị thanh ghi BX vào thanh ghi AX
 * BX: là toán hạng nguồn  
 
 # Các lệnh cơ bản 
-## Mov (move) *có thể hiểu là phép gán*
-***MOV [toán hạng đích] , [toán hạng nguồn]***
-* **toán hạng đích** : có thể là thanh ghi (8bit or 16bit), địa chỉ của một ô nhớ, một vbiến nào đó và không thể là hằng số.  
-* **toán hạng nguồn** : có thể là hằng số, biến, thanh ghi, địa chỉ của một ô nhớ.
+## Mov (move)  
+*có thể hiểu là phép gán*  
+***MOV [toán hạng đích] , [toán hạng nguồn]***  
+* **toán hạng đích** : có thể là thanh ghi (8bit or 16bit), địa chỉ của một ô nhớ, một biến nào đó và không thể là hằng số.  
+* **toán hạng nguồn** : có thể là hằng số, biến, thanh ghi, địa chỉ của một ô nhớ.  
+  
+*Lưu ý*  
+mov AX, DI   ;đặt thanh ghi DI vào thanh ghi AX (địa chỉ thanh ghi)
+mov AX, [DI] ;nội dung của ô nhớ được chỉ bởi DI Tức là, đặt nội dung của ô nhớ được chỉ bởi DI vào thanh ghi Ax: Ax = 41h  
+
