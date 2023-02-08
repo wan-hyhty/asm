@@ -13,5 +13,5 @@ Một chương trình có **ba phần**
 # Phần văn bản  
 ***Cú pháp*** :  
 tên.text
-global _start ;đây là phần thực thi chương trình
-_start ;
+global _start ;đây là phần thực thi chương trình  
+_start:
