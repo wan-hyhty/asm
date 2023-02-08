@@ -10,4 +10,13 @@ Một lệnh asm gồm 4 phần tử sau
 * ***comment*** : là các chú thích tương tự như // của C  
   
 Ví dụ:  
-mov AX,BX ;đặt giá trị thanh ghi BX vào thanh ghi AX
+mov AX,BX ;đặt giá trị thanh ghi BX vào thanh ghi AX  
+* mov: là tên lệnh có chức năng đặt thanh ghi 
+* AX: là toán hạng đích  
+* BX: là toán hạng nguồn  
+
+# Các lệnh cơ bản 
+## Mov (move) *có thể hiểu là phép gán*
+***MOV [toán hạng đích] , [toán hạng nguồn]***
+* **toán hạng đích** : có thể là thanh ghi (8bit or 16bit), địa chỉ của một ô nhớ, một vbiến nào đó và không thể là hằng số.  
+* **toán hạng nguồn** : có thể là hằng số, biến, thanh ghi, địa chỉ của một ô nhớ.
